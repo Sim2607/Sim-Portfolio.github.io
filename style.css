@@ -87,3 +87,20 @@ body {
   background: linear-gradient(135deg, #00ffff33, #ff00ff33);
   border-radius: 15px;
 }
+
+/* 🔥 STEP 7: NEON UPGRADE */
+
+.card {
+  box-shadow: 0 0 50px #39ff14;
+  background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(15px);
+}
+
+.btn {
+  color: #39ff14;
+  border: 1px solid #39ff14;
+}
+
+.btn:hover {
+  box-shadow: 0 0 20px #39ff14;
+}
