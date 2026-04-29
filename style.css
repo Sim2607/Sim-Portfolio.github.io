@@ -1,1 +1,89 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0a0a0a;
+  color: white;
+}
 
+.container {
+  padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: #111;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #00ffcc33;
+}
+
+.navbar a {
+  color: #ccc;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #00ffff;
+}
+
+/* Card */
+.card {
+  display: flex;
+  margin-top: 30px;
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(20,20,20,0.7);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 30px #00ffff33;
+}
+
+/* Left */
+.left {
+  flex: 1;
+}
+
+.left h1 {
+  color: #00ffff;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background: transparent;
+  color: #00ffcc;
+  border: 1px solid #00ffcc;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.btn:hover {
+  box-shadow: 0 0 15px #00ffcc;
+}
+
+/* Skills */
+.skills span {
+  display: inline-block;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 10px;
+  background: #111;
+  border: 1px solid #00ffff;
+}
+
+/* Right Images */
+.right {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.img-box {
+  height: 120px;
+  background: linear-gradient(135deg, #00ffff33, #ff00ff33);
+  border-radius: 15px;
+}
